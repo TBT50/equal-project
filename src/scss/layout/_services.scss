@@ -1,0 +1,72 @@
+.services {
+  background-color: #f6f6f6;
+  padding: 52px 14px 36px;
+  text-align: center;
+
+  &__subheader {
+    padding: 14px 20px 15px;
+  }
+}
+
+.services-container {
+  text-align: left;
+}
+
+.services-item {
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.img-container {
+  width: 70px;
+  height: 50px;
+  position: relative;
+}
+
+.item-header {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.item-text {
+  color: #6e6e6e;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.services-item-1 > .img-container {height: 65px;}
+.services-item-2 > .img-container {height: 58px;}
+.services-item-3 > .img-container {height: 60px;}
+.services-item-4 > .img-container {height: 60px;}
+.services-item-5 > .img-container {height: 60px;}
+
+.services-item-4 > .img-container > svg {
+  position: absolute;
+  left: -15px;
+  bottom: 0;
+}
+
+
+/* HOVER ELEMENTS */
+.services-item:hover {
+  background-color: #2d4c7d;
+}
+
+.services-item:hover > .img-container > svg, 
+.services-item:hover > .item-text,
+.services-item:hover > .item-header {
+   color: #FFF;
+   fill: #FFF;
+}
+
+.services-item:hover > a > svg path {
+  fill: #FFF;
+}
+
+.services-item-3:hover > .img-container > svg path,
+.services-item-4:hover > .img-container > svg path,
+.services-item-5:hover > .img-container > svg path {
+  fill: #FFF;
+}

@@ -1,0 +1,145 @@
+.page-header {
+  background-color: #edf1f6;
+  padding: 0 29px;
+  position: relative;
+  height: 666px;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  z-index: 1;
+}
+
+.page-logo {
+  position: relative;
+  top: 10px;
+  left: 0;
+  z-index: 1000;
+}
+
+.page-logo img {
+  width: 190px;
+  height: 65px;
+}
+
+/* NAVIGATION */
+.page-nav {
+  background-color: transparent;
+  
+  &__list {
+    z-index: 11;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 100px 30px;
+    list-style-type: none;
+    box-sizing: border-box;
+    display: none;
+  }
+
+  &__list-item {
+    font-size: 2rem;
+    line-height: 60.01px; 
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+a.page-nav__list-item {
+  color: #404040;
+}
+
+/* MENU */
+.menu-btn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  padding: 12px;
+  top: 51px;
+  right: 17px;
+  z-index: 100;
+  &__close {
+    display: none;
+  }
+}
+
+.menu-btn::after {
+  content: 'MENU';
+  position: absolute;
+  top: 35px;
+  left: 12px;
+  color: #404040;
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.page-nav.nav-opened .page-nav__list{
+  display: block;
+  background-color: #edf1f6;
+}
+
+.page-nav.nav-opened .menu-btn .menu-btn__open {
+  display: none;
+}
+
+.page-nav.nav-opened .menu-btn .menu-btn__close {
+  display: block;
+}
+
+.home-btn {
+  position: relative;
+  top: 5px;
+  width: 18px;
+}
+
+/* Header text */
+.text-box {
+  padding-top: 155px;
+  position: relative;
+  z-index: 9;
+
+  &__header {
+    font-family: "Crete Round";
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  &__subheader {
+    font-size: 1.8rem;
+    margin: 10px 0 22px;
+  }
+}
+
+/* Header background image */
+.header-bg {
+  position: absolute;
+  bottom: 110px;
+}
+
+.header-bg img {
+  max-width: 90%;
+}
+
+.scroll-btn {
+  position: absolute;
+  bottom: -3.5px;
+  border: none;
+  background-color: transparent;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9;
+}
+
+.scroll-btn img {
+  width: 122px;
+  height: 45px;
+}
+
+

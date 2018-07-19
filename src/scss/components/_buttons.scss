@@ -1,0 +1,31 @@
+.section-header {
+  font-family: "Crete Round";
+  font-size: 30px;
+  line-height: 40.94px;
+  font-weight: 400;
+}
+
+.section-subheader {
+  color: #6e6e6e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.primary-btn {
+  border: 1px solid #000000;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 140px;
+  height: 33px;
+  line-height: 33px;
+}
+
+.primary-btn:hover {
+  background-color: #325080;
+  color: #FFF;
+  border: 1px solid #325080;
+}

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans-Light';
+  src: url('../fonts/OpenSans-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Crete Round';
+  src: url('../fonts/CreteRound-Regular.ttf');
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a:link,
+a:visited {
+  color: #000;
+}
+h1,h2,h3,h4,h5,h6,ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+

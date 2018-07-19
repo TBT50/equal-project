@@ -1,0 +1,79 @@
+.sectors {
+  padding: 58px 30px 50px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.03px;
+
+  &__header {
+    padding-bottom: 15px;
+    text-align: center;
+  }
+}
+
+.sectors-item-btn {
+  border: 0;
+  background-color: #f6f6f6;
+  height: 68px;
+  padding: 12px 20px;
+  width: 100%;
+  margin-top: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Open Sans';
+}
+
+.accordion:after {
+  content: url('../img/plus.svg');
+  font-size: 30px;
+  color: #2d4c7d;
+  font-weight: 300;
+}
+
+.active:after {
+  content: url('../img/close.svg');
+  position: relative;
+  height: 5px;
+  bottom: 28px;
+}
+
+.panel {
+  display: none;
+}
+.panel__img {
+  padding: 0 0 6px;
+}
+
+.panel__img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.panel__text {
+  color: #6e6e6e;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 5px 0 20px;
+}
+
+.accordion.active {
+  background-color: transparent;
+  height: 74px;
+}
+
+.accordion.active span {
+  position: relative;
+  right: 20px;
+}
+
+.panel-btn {
+  margin-bottom: 30px;
+}
+
+.sectors-container {
+  display: none;
+}
